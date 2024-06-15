@@ -1,0 +1,23 @@
+/* Estilos para el componente Article */
+.post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: box-shadow 0.3s ease;
+    background-color: rgb(255, 255, 255); /* Color de fondo del cuadro */
+    margin: 1rem 5cm; /* Margen del cuadro */
+    border-radius: 0.5rem; /* Redondeo de las esquinas del cuadro */
+    padding: 1rem 0; /* Largo del cuadro */
+    cursor: pointer;
+  }
+  
+  .post:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+  }
+  
+  .post h2,
+  .post p {
+    margin: 1rem;
+    color: black;
+  }
+  

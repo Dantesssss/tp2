@@ -1,0 +1,27 @@
+/* Estilos para el componente Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000; /* Color de fondo azul */
+    color: #fff; /* Color del texto blanco */
+    padding: 1rem;
+  }
+  
+  footer section {
+    order: 1; /* Ubica la sección a la derecha */
+  }
+  
+  footer p {
+    order: -1; /* Ubica el párrafo a la izquierda */
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: cornflowerblue;
+  }
+  

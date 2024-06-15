@@ -1,0 +1,10 @@
+/* Estilos para el componente Header */
+#titulo {
+  text-align: center; /* Centra el texto del título */
+  background-color: #000000; /* Color de fondo azul celeste */
+  padding: 1rem; /* Añade espacio alrededor del título */
+  color: #fff; /* Color del texto blanco */
+  /* margin: 0;
+  min-width: 90vw; */
+}
+  
