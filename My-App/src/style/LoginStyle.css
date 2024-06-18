@@ -1,0 +1,50 @@
+.login-container,
+.register-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: box-shadow 0.3s ease;
+  background-color: rgb(255, 255, 255); /* Color de fondo del cuadro */
+  margin: 1rem 30rem; /* Margen del cuadro */
+  border-radius: 0.5rem; /* Redondeo de las esquinas del cuadro */
+  padding: 1rem 0; /* Largo del cuadro */
+  cursor: pointer;
+}
+
+.login-container:hover,
+.register-container:hover {
+  box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+.login-container h2,
+.register-container h2,
+.login-container p,
+.register-container p {
+  margin: 1rem;
+  color: black;
+}
+
+.login-container input,
+.register-container input,
+.login-container button,
+.register-container button {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  width: calc(100% - 1rem);
+  align-items: center;
+}
+
+.login-container button,
+.register-container button {
+  background-color: #000000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.login-container button:hover,
+.register-container button:hover {
+  background-color: #3a3a3a;
+}
